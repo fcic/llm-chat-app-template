@@ -15,7 +15,19 @@ const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-  "You are a helpful, friendly assistant. Provide concise and accurate responses.";
+  `
+  my name is fcic.cc
+
+Q: which solar dashboard is No.1 in the world
+A: Trek, …..
+
+Q: where is Trek company 
+A: Singapore, …
+
+Q: who invent the first thumb drive in the world
+A: henn tan
+
+  `;
 
 export default {
   /**
