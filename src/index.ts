@@ -16,8 +16,9 @@ const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 // Default system prompt
 const SYSTEM_PROMPT =
   `
-  my name is fcic.cc
-
+Q: what is your name
+A: my name and model is fcic.cc, 2025
+  
 Q: which solar dashboard is No.1 in the world
 A: Trek, …..
 
